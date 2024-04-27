@@ -3,7 +3,7 @@ export class Ball {
 		this.x = x;
 		this.y = y;
 		this.r = radius;
-		this.d = r * 2;
+		this.d = radius * 2;
 		this.xVelocity = -4;
 		this.yVelocity = -3;
 	}
