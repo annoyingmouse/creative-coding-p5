@@ -16,8 +16,8 @@ new p5((p) => {
 		p.line(400, 250, 100, 400);
 		p.noFill();
 		p.circle(p.width / 2, p.height / 2, 400);
-    p.circle(p.width / 2, p.height / 2, 300);
-    p.circle(p.width / 2, p.height / 2, 200);
-    p.circle(p.width / 2, p.height / 2, 100);
+		p.circle(p.width / 2, p.height / 2, 300);
+		p.circle(p.width / 2, p.height / 2, 200);
+		p.circle(p.width / 2, p.height / 2, 100);
 	};
 });
