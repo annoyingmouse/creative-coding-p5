@@ -8,7 +8,7 @@ new p5((p) => {
 
 	p.draw = () => {
 		p.background("#edede9");
-		p.noStroke()
+		p.noStroke();
 		p.fill("#d6ccc2");
 		p.rect(50, 50, 200, 400);
 		p.fill("#f5ebe0");
