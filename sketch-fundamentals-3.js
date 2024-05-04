@@ -7,8 +7,16 @@ new p5((p) => {
 	};
 
 	p.draw = () => {
-		p.background(220);
-		p.strokeWeight(6);
-		p.triangle(250, 150, 400, 400, 100, 400);
+		p.background("#edede9");
+		p.noStroke()
+		p.fill("#d6ccc2");
+		p.rect(50, 50, 200, 400);
+		p.fill("#f5ebe0");
+		p.rect(250, 50, 200, 200);
+		p.fill("#e3d5ca");
+		p.rect(250, 250, 200, 200);
+		p.fill("#d5bdaf");
+		p.rect(350, 350, 100, 100);
+		p.rect(250, 250, 100, 100);
 	};
 });
